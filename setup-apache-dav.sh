@@ -52,7 +52,7 @@ if is_debian || is_ubuntu; then
 
         # Add basic WebDav config to default Apache site
         #
-	cat <<-EOF > /etc/apache2/sites-enabled/000-default.conf
+	cat <<-'EOF' > /etc/apache2/sites-enabled/000-default.conf
 	DavLockDB /var/www/dav/DavLock
 	<VirtualHost *:80>
 		# The ServerName directive sets the request scheme, hostname and port that
