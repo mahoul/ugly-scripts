@@ -53,7 +53,7 @@ if is_debian || is_ubuntu; then
         # Add basic WebDav config to default Apache site
         #
         sed -i \
-        -e '1s#^#DavLockDB /var/www/dav\n#' \
+        -e '1s#^#DavLockDB /var/www/dav/DavLock\n#' \
         -e 's#</VirtualHost>#\n\tAlias /dav /var/www/dav\n\t<Directory /var/www/dav>\n\t\tDAV On\n\t</Directory>\n</VirtualHost>#' \
         /etc/apache2/sites-enabled/000-default.conf
 
