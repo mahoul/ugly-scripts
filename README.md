@@ -4,7 +4,7 @@ So no responsability taken here.
 
 ## setup-apache-dav.sh
 
-Installs ```apache2``` package under _Debian/Ubuntu_ and setups the default site to allow WebDAV under ```/var/www/dav``` with __NO AUTH__ (__K__eep __T__hat __I__n __M__ind)
+Installs ```apache2``` package under _Debian/Ubuntu_ and setups the default site to allow WebDAV under ```/var/www/dav``` with **NO AUTH** (**K**eep **T**hat **I**n **M**ind)
 
 Use:
 
